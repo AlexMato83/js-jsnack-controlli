@@ -11,9 +11,9 @@ var secondoNum = parseInt(prompt("adesso tocca a te là dietro, si dico a te, fa
 var vincitore;
 //scelta numero maggiore
 if (primoNum > secondoNum) {
-  vincitore = primoNum;
+  vincitore = "primo tizio, che ha puntato " + primoNum;
 } else if (primoNum < secondoNum){
-  vincitore = secondoNum;
+  vincitore = "secondo tizio, che ha puntato " + secondoNum;
 }
 //output numero maggiore
-document.getElementById('ex-1').innerHTML= "il vincitore è il tizio che ha puntato " + vincitore;
+document.getElementById('ex-1').innerHTML= "il vincitore è il " + vincitore;
