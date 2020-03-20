@@ -17,4 +17,4 @@ var num5 = parseInt(prompt('inserisci il quinto numero'));
 var result = num1 + num2 + num3 + num4 + num5;
 
 //output con la somma
-document.getElementById('ex-3').innerHTML= "il totale fa " + result;
+document.getElementById('ex-3').innerHTML= "il totale fa " + result + " ,COMPLIMENTI HAI VINTO UN PALLOTTOLIERE";
